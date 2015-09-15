@@ -1,6 +1,8 @@
+/* Really really useful for debugging !!
 * {
     border: 1px solid red !important;
 }
+*/
 
 * {
     -webkit-box-sizing: border-box;
@@ -95,6 +97,7 @@ img {
 
 .col-4 {
     width: 33.33%;
+    text-align: center;
 }
 
 .col-5 {
