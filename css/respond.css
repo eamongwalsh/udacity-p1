@@ -1,0 +1,28 @@
+/* Responsive for portfolio */
+
+@media screen and (max-width: 549px) {
+    
+    .header_h1 {
+      font-weight: 100;
+      font-size: 2em;
+      margin: 0.5em 0.25em;
+      text-transform: uppercase;
+      display: inline-block;
+      color: #747704;
+    }
+
+    .header_h2 {
+      font-weight: 400;
+      font-size: 1em;
+      margin: 0.5em 0.25em;
+      text-transform: uppercase;
+      color: #bcbbbb;
+    }
+    
+    .col-4 {
+      width: 100%;
+    }
+    
+}
+
+

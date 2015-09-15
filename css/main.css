@@ -1,0 +1,134 @@
+* {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Make paragraphs disappear at resolution less than 500px */
+
+@media only screen and (max-width: 500px) {
+    p {
+        /* display: none; */
+      }
+}
+
+* {
+      font-family: 'Lato', sans-serif;
+}
+
+body {
+  font-size: 12px;
+  color: #424242;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+  height: 100px;
+  margin-right: 1em;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+.header_h1 {
+  font-weight: 100;
+  font-size: 4em;
+  margin: 0.5em 0.25em;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #747704;
+}
+
+.header_h2 {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 0.5em 0.25em;
+  text-transform: uppercase;
+  color: #bcbbbb;
+}
+
+.header_h3 {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 0.5em 0.25em;
+  text-transform: uppercase;
+  color: #747704;
+}
+
+img {
+    margin: 10px;
+    width: calc(100% - 20px);
+}
+
+.logo {
+    margin: 10px;
+    width: 100%
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-6 img {
+    max-width: 100px;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
