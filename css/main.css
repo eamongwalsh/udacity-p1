@@ -113,12 +113,17 @@ img {
     width: 41.66%;
 }
 
-.col-6 {
+.heading-6 {
     width: 50%;
 }
 
+.col-6 {
+    width: 50%;
+    text-align: right; 
+}
+
 /* Additional piece of CSS code to keep the images small in the header (logo image) */
-.col-6 img {
+.heading-6 img {
     max-width: 100px;
 }
 
