@@ -1,15 +1,28 @@
 <!DOCTYPE html>
+<!-- This is my Project 1 submission for Udacity Nanodegree
+    by Eamon Walsh
+    saved to Github repository
+    https://github.com/eamongwalsh/udacity-p1
+
+    This was completed without using Bootstrap to learn media-queries etc. for responsiveness.
+
+    Sept. 2015
+    Eamon Walsh
+-->
+
 <html>
 <head>
   <meta charset="utf-8">
   <title>Eamon Walsh Portfolio page</title>
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700|Lato:400,100,700' rel='stylesheet' type='text/css'>
+    <!-- using Google fonts see https://www.google.com/fonts for more info -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700|Lato:400,100,700' rel='stylesheet' type='text/css'>
+  <!-- Using two separate stylesheets -->
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/respond.css">
 
 <script type="text/javascript">
 
-    // Simple Javascript image slider with some help from JavascriptKit
+    // Simple Javascript image slider with some help from JavascriptKit.com
     var sliderimg = new Array() // create new array to preload images
     sliderimg[0] = new Image() // create new instance of image object
     sliderimg[0].src = "images/ew-small.jpg" // set image src property to image path, preloading image in the process
@@ -26,6 +39,7 @@
   <div class="grid">
     <div class="row">
       <div class="col-6">
+          <!-- Optimised all images using a combo of ImageMagick and one I use on my Mac called SmallImage and they are all v. small (kb) -->
           <img src="images/ew-small.jpg" id="slide" alt="Logo Image" height="100" width="100">
       </div>
       <div style="text-align: right;" class="col-6">
@@ -33,8 +47,10 @@
         <h2 class="header_h2">Front-End Ninja</h2>
       </div>
     </div>
+    <!-- Using the rows and columns grid we went through in class -->
     <div class="row">
       <div class="col-12">
+        <!-- trying out some new Semantic Web tags like "figure" -->
         <figure><img src="images/compute.jpg" alt="In the end, it all boils down to binary!">
         <figcaption>In the end, it all boils down to binary!</figcaption>          </figure>
       </div>      
@@ -63,13 +79,16 @@
     </div>
       
     <div class="row">
-      <div class="col-12">
+      <div class="footer">
           <p>You will find this project in my Github account at <a href="https://github.com/eamongwalsh/udacity-p1">https://github.com/eamongwalsh/udacity-p1.</a> Hope you like it! </p>
+          <p><a href="mailto:eamon.walsh@gmit.ie"><img src="images/email-icon-small.jpg" alt="Email Eamon" height="56" width="50"></a>
+          If you'd like to get in touch please email me at <a href="mailto:eamon.walsh@gmit.ie">eamon.walsh@gmit.ie</a> Thanks! </p>
       </div>
     </div>
       
   </div>
 
+<!-- The other bit of Javascript to make my image slider do it! -->    
 <script type="text/javascript">
 
     //variable that will increment through the images

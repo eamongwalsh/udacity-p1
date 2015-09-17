@@ -1,4 +1,7 @@
-/* Really really useful for debugging !!
+/* Main CSS styles using what I had learned in class */
+
+
+/* Nice red border - Really really useful for debugging !!
 * {
     border: 1px solid red !important;
 }
@@ -11,7 +14,10 @@
     box-sizing: border-box;
 }
 
-/* Make paragraphs disappear at resolution less than 500px */
+/* Make paragraphs disappear at resolution less than 500px 
+
+    didn't use this
+*/
 
 @media only screen and (max-width: 500px) {
     p {
@@ -39,6 +45,9 @@ body {
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+    /* Added following testing on Safari browser to make flex-wrap work! */
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
 }
 
 .header__logo {
@@ -108,8 +117,18 @@ img {
     width: 50%;
 }
 
+/* Additional piece of CSS code to keep the images small in the header (logo image) */
 .col-6 img {
     max-width: 100px;
+}
+
+.footer {
+    width: 100%;
+}
+
+/* Additional piece of CSS code to keep the images small in the footer (logo image) */
+.footer img {
+    max-width: 50px;
 }
 
 .col-7 {

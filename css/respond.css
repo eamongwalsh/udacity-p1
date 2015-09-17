@@ -1,4 +1,8 @@
-/* Responsive for portfolio */
+/* Responsive for portfolio 
+
+Making some subtle changes to aid responsiveness.
+
+*/
 
 @media screen and (max-width: 549px) {
     
@@ -23,9 +27,10 @@
       width: 100%;
     }
     
+    /* Shrink the images a little in Col 4 - makes for nicer Look and Feel on mobile */
     .col-4 img {
     width: 70%;
-}
+    }
 }
 
 
